@@ -1,6 +1,10 @@
 /*reseteo general*/
+html{scroll-behavior: smooth;
 
-
+}
+a{
+    text-decoration: none;
+}
 
 * {
 
@@ -19,6 +23,7 @@
 }
 
 
+
 .nav-bar {
     display: flex;
     justify-content: end;
@@ -30,8 +35,8 @@
 
 }
 
-.nav-bar>h4:hover {
-    color: rgb(249, 247, 251);
+.nav-bar a>h4:hover {
+    color: rgb(251, 79, 211);
 
 }
 
@@ -65,6 +70,60 @@
     padding-top: 20rem;
 
 }
+/* aqui inicia la sesion de habilidades*/
+.habilidades{
+   
+    padding-bottom: 3rem;
+   
+}
+.habilidades-title{
+    margin-bottom: 3rem;
+}
+.img-habilidades{
+background-color: rgb(242, 238, 241);
+display: flex;
+
+
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+gap: 3rem;
+}
+
+
+
+
+
+
+.row1 > img{
+width: 150px;
+margin: .3rem;
+
+
+}
+.row2 > img{
+    width: 150px;
+    margin: .3rem;
+   
+}
+.row3 > img{
+    width: 150px;
+    margin: .3rem;
+   
+}
+.misHabilidades{
+ 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
 
 /* qui inicia la sesion de portafolio */
 .img-proyect1{
@@ -83,4 +142,6 @@ align-items: center;
 align-content: center;
 
 }
-.parrafo-portafoli
+.parrafo-portafoli{
+    margin: 1rem;
+}
