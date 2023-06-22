@@ -1,8 +1,10 @@
 /*reseteo general*/
-html{scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -70,25 +72,29 @@ a{
     padding-top: 20rem;
 
 }
+
 /* aqui inicia la sesion de habilidades*/
-.habilidades{
-   
-    padding-bottom: 3rem;
-   
+
+.habilidades {
+
+    padding: 5rem;
+
 }
-.habilidades-title{
+
+.habilidades-title {
     margin-bottom: 3rem;
 }
-.img-habilidades{
-background-color: rgb(242, 238, 241);
-display: flex;
+
+.img-habilidades {
+    background-color: rgb(255, 252, 254);
+    display: flex;
 
 
-justify-content: center;
-justify-items: center;
-align-content: center;
-align-items: center;
-gap: 3rem;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 
@@ -96,24 +102,27 @@ gap: 3rem;
 
 
 
-.row1 > img{
-width: 150px;
-margin: .3rem;
-
-
-}
-.row2 > img{
+.row1>img {
     width: 150px;
     margin: .3rem;
-   
+
+
 }
-.row3 > img{
+
+.row2>img {
     width: 150px;
     margin: .3rem;
-   
+
 }
-.misHabilidades{
- 
+
+.row3>img {
+    width: 150px;
+    margin: .3rem;
+
+}
+
+.misHabilidades {
+
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -126,22 +135,35 @@ margin: .3rem;
 
 
 /* qui inicia la sesion de portafolio */
-.img-proyect1{
-width: 500px;
-margin-top: 4rem;
-box-shadow:1px 1px 10px 1px blueviolet ;
-border-radius:1rem ;
+.img-proyect1 {
+    width: 500px;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 10px 1px blueviolet;
+    border-radius: 1rem;
 }
 
-.mi-portafolio{
+.mi-portafolio {
     display: flex;
     gap: 2rem;
     justify-content: center;
-justify-items: center;
-align-items: center;
-align-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 
 }
-.parrafo-portafoli{
+
+.parrafo-portafoli {
     margin: 1rem;
+}
+
+/* aqui inicia la sesion de contacto */
+.form-contacto {
+    border: 30rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: 1px 1px 10px 1px black;
+    margin-top: 5rem;
+    width: 80%;
 }
